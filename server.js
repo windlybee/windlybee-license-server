@@ -1,3 +1,6 @@
+require('dotenv').config();
+console.log("Loaded LemonSqueezy API Key:", process.env.LEMON_API_KEY);
+
 const express = require('express');
 const fetch = require('node-fetch');
 

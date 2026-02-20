@@ -1,0 +1,17 @@
+{
+  "name": "windlybee-license-server",
+  "version": "1.0.0",
+  "description": "Production-ready Express license validation server for LemonSqueezy",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-fetch": "^2.7.0"
+  }
+}
